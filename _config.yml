@@ -1,0 +1,48 @@
+# Site settings
+title: 池元烨的博客
+email: yeyuan1489@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  池元烨的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://chiyuanye.com # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Chi Yuanye
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+github: tsiye
+instagram: tsiyuye
+
+# avatar and Favicon
+avatar: https://i.loli.net/2019/02/20/5c6cf0e7a42f9.jpg
+favicon: https://i.loli.net/2019/02/20/5c6cf0555ffe6.jpeg
+
+# disqus config
+disqus:
+  shortname: chiyuanye
+
+# google analytics config
+ga:
+  id: UA-54767140-1
+  url: chiyuanye.com
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
